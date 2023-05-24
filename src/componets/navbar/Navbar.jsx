@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <span className="brand">Miki Booking</span>
+      <span className="brand">Micky Booking</span>
       <div className={active}>
         <button className="btn">Register</button>
         <button className="btn">Login</button>

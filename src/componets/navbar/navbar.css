@@ -2,24 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* max-width: 1024px; */
 }
 .navbar {
   width: 100%;
+  /* max-width: 1024px; */
   height: 8vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: blue;
+  background-color: #003580;
 }
 .brand {
+  font-size: 30px;
   color: white;
-  margin-left: 20px;
+  margin-left: 100px;
   font-weight: bolder;
 }
 .btn {
   border: none;
   background-color: white;
-  color: blue;
+  color: #003580;
   padding: 5px 10px;
   /* margin-left: 10px; */
 }
@@ -28,7 +31,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 2rem;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 /* hummer */
 .toggle div {
@@ -36,6 +39,7 @@
   height: 0.2rem;
   background: darkgray;
   margin: 0.4rem;
+  transition: 0.4s ease-in;
 }
 .toggle {
   cursor: pointer;
@@ -61,7 +65,8 @@
     right: 0;
     width: 25%;
     height: auto;
-    background-color: blue;
+    z-index: 1;
+    background-color: #003580;
     flex-direction: column;
     justify-content: start;
     margin-right: 0;
@@ -78,13 +83,13 @@
 }
 /* toogle Icon animation */
 .toggler .line1 {
-  transform: rotate(-45deg) translate(-4px, 5px);
+  transform: rotate(-45deg) translate(-8px, 5px);
 }
 .toggler .line2 {
   opacity: 0;
 }
 .toggler .line3 {
-  transform: rotate(45deg) translate(-4px, -5px);
+  transform: rotate(45deg) translate(-8px, -5px);
 
 }
 
